@@ -1,0 +1,19 @@
+{
+  "name": "appium-plugin",
+  "version": "1.0.0",
+  "description": "Trying out creating a custom appium plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@appium/base-plugin": "^1.8.1",
+    "full-powershell": "^2.1.0"
+  },
+  "appium": {
+    "pluginName": "process-status",
+    "mainClass": "ProcessStatusPlugin"
+  }
+}
