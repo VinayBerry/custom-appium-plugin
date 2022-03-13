@@ -1,5 +1,3 @@
-import ProcessStatusPlugin from "./plugin";
+const ProcessStatusPlugin = require('./plugin').ProcessStatusPlugin
 
-export default ProcessStatusPlugin;
-
-export {ProcessStatusPlugin}
+module.exports = {ProcessStatusPlugin}
